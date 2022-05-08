@@ -1,0 +1,14 @@
+_BASE_: mimic.yml
+# 使用的数据集与R2Gen不同，是有自身历史记录的病人
+# 此处筛选了PA和AP两个视角，且只保留N+1(或4次)以上历史记录的病人
+# dataset infomation
+dataset_name: mimic_self
+image_dir: data/mimic/r2gen/images/images224
+json_report: data/mimic/finding/pair_list.json
+
+# 下面这个参数是没有使用的，信息已经全部存在json文件中了
+pair_split: data/mimic/finding/similar_pair_list.csv
+
+N: 1
+
+epochs: 50

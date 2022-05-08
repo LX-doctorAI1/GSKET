@@ -1,0 +1,9 @@
+_BASE_: mimic.yml
+
+# 使用的数据集与R2Gen完全一致, condition通过KL Div检索
+# dataset infomation
+dataset_name: mimic_retrieval
+image_dir: data/mimic/dataset/images/files
+json_report: data/mimic/dataset/ann_history_entity.json
+
+N: 1

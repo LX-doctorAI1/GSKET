@@ -1,0 +1,6 @@
+_BASE_: iu_base.yml
+
+# Visual Extractor
+visual_extractor: resnet101
+#pretrain_cnn_file: code/torchxrayvision/scripts/output/mimic_ch-resnet101-pretrain-best.pt
+d_vf: 2048

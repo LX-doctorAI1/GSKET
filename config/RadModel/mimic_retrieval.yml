@@ -1,0 +1,10 @@
+_BASE_: mimic_base.yml
+
+# 使用的数据集与R2Gen完全一致, condition通过KL Div检索
+# dataset infomation
+dataset_name: mimic_retrieval
+image_dir: data/mimic/xrv/images-224-MIMIC/files
+json_report: data/mimic/xrv/images-224-MIMIC/annotation.json
+pair_split: data/mimic/xrv/conditional_pair_kl.csv
+
+N: 1

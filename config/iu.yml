@@ -1,0 +1,39 @@
+# dataset infomation
+dataset_name: iu_xray
+image_dir: data/iu/dataset/images
+json_report: data/iu/dataset/ann_history_entity.json
+knowledge_file: data/iu/dataset/entity2knowledge_entity2id.json
+pretrained_embedding: data/iu/dataset/knowledge_entity2embedding.npy
+
+# RadGraph使用entity_file和relation_file
+entity_file: data/iu/dataset/Certified/Certified_RotatE_entity.npy
+relation_file: data/iu/dataset/Certified/Certified_RotatE_relation_feat.npy
+
+N: 1
+
+# Hyperparameter
+max_seq_length: 60
+num_labels: 14
+threshold: 3
+
+batch_size: 64
+epochs: 50
+step_size: 20
+
+num_layers: 3
+
+gamma: 0.1
+seed: 9223
+lr_ed: 0.0005
+
+# Visual Extractor
+# d_vf:
+# efficientnet: 1280
+# densenet: 1024
+# resnet101: 2048
+visual_extractor: resnet101
+pretrain_cnn_file:
+d_vf: 2048
+
+# Output Dir
+save_dir: results
