@@ -35,18 +35,19 @@ Download IU and MIMIC-CXR datasets, and place them in `data` folder.
 
 ## Training & Testing
 
-训练测试代码主入口：
+The source code for training can be found here：
 
 `main_basic.py`: basic model
 
-`main.py`: 使用知识的model
+`main.py`: model with knowledge
 
-所有代码运行所需参数已经在`config`文件中设置好
+The values of all the hyperparameters can be found in the folder 'config'.
 
-运行命令只需指定配置文件和所需使用的gpu id和模型迭代版本
+To run the command, you only need to specify the config file and the GPU ID and iteration version of the model to be used
 
-示例：
+
+Example：
 `python main.py --cfg config/iu_retrieval.yml --gpu 0 --version 1`
 
 ## Citation
-Shuxin Yang, Xian Wu, Shen Ge, S. Kevin Zhou, Li Xiao,Knowledge Matters: Radiology Report Generation with General and Specific Knowledge.2022
+Shuxin Yang, Xian Wu, Shen Ge, S. Kevin Zhou, Li Xiao, Knowledge Matters: Radiology Report Generation with General and Specific Knowledge. Medical Image Analysis，2022
