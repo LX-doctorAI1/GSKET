@@ -52,6 +52,6 @@ Example：
 ## Citation
 Shuxin Yang, Xian Wu, Shen Ge, S. Kevin Zhou, Li Xiao, Knowledge Matters: Radiology Report Generation with General and Specific Knowledge. Medical Image Analysis，2022
 
-##Contact
+## Contact
 If you have any problem with the code, please contact  Li Xiao(andrew.lxiao@gmail.com) or Shuxin Yang(aspenstarss@gmail.com).
 
