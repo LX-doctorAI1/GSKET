@@ -51,6 +51,7 @@ Example：
 
 ## Citation
 Shuxin Yang, Xian Wu, Shen Ge, S. Kevin Zhou, Li Xiao, Knowledge Matters: Radiology Report Generation with General and Specific Knowledge. Medical Image Analysis，2022
+Joseph Paul Cohen, Joseph D. Viviano, Paul Bertin, Paul Morrison, Parsa Torabian, Matteo Guarrera, Matthew P Lungren, Akshay Chaudhari, Rupert Brooks, Mohammad Hashir, Hadrien Bertrand. TorchXRayVision: A library of chest X-ray datasets and models. Medical Imaging with Deep Learning, 2020
 
 ## Contact
 If you have any problem with the code, please contact  Li Xiao(andrew.lxiao@gmail.com) or Shuxin Yang(aspenstarss@gmail.com).
